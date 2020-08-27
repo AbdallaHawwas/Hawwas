@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(202, 199, 199);
+}
+.global {
+    background-color: #FFF;
+    color: black;
+    }
+.section-1 {
+    background-color: rgb(66, 66, 66);
+    color: #FFF;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+hr {
+    background-color: gray;
+    height: 1px;
+    width: 900px;
+    border-radius: 10px;
+}
+@media (max-width: 576px) {
+hr {
+    width: 400px;
+}
+}
+.cv-image {
+    text-align: center;
+    padding: 75px;
+    height: 200px;
+    width: 180px;
+    display: block;
+    border:  dotted 4px gold ;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.cv-image img {
+    height: 180px;
+    width: 160px;
+    border-radius: 100px;
+    position: relative;
+    top: -70px;
+    right: 68px;
+}
+.name {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(229, 235, 157);
+    color: rgb(180, 12, 34);
+    width: 14em;
+    height: 59px;
+    padding-top: 9px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(247, 7, 7);
+    position: relative;
+    bottom: 40px;
+    font-size: 26px;
+}
+.section-2 {
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.section-3 {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.section-3 .row .left-column-render {
+        border-right: 5px solid gray;
+        border-radius: 5px;
+
+}
+.profile-body {
+    font-weight: bold;
+}
+.skills {
+     text-align: left;
+ }
+.js-skill {
+     display: flex;
+}
+.js-skill > span {
+    margin-left: 20px;
+}
+.tech-skills > .head-line {
+    font-weight: bolder;
+}
+.tech-skills-content > div {
+    display: flex;
+}
+.progress {
+    width: 300px;
+}
+.tech-skills-content > div >h6 {
+    padding-right: 40px;
+}
+.soft-skills > .head {
+    font-weight: bolder;
+}
+.soft-skills ul {
+    font-weight: bold;
+}
+.section-3 .row .right-column-render {
+    text-align: left;
+    font-weight: bold;
+}
+.icon {
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+color: #000;
+font-weight: 400;
+font-size: 15px!important;
+box-sizing: border-box;
+font-feature-settings: "liga" 0;
+margin-top: 0;
+margin-bottom: 0;
+font-family: inherit;
+line-height: 16px;
+width: 50px;
+min-width: 50px;
+height: 50px;
+min-height: 50px;
+margin-right: 6px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+z-index: 1;
+background-color: #facd48;
+}
